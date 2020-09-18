@@ -1,0 +1,378 @@
+#all
+{
+    -fx-background-color: #f5f5f7;
+    -fx-text-fill: #09192D;
+    
+}
+
+#logoName
+{
+    -fx-effect: dropshadow(one-pass-box, #464A4B, 5, .5, 2, 2);		
+}
+
+#logoPic
+{
+    -fx-effect: dropshadow(one-pass-box, #464A4B, 10, .5, 2, 2);
+    
+}
+
+
+#filterLabel
+{
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: #09192D;
+    
+}
+
+#minorLabel
+{
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: #09192D;
+    
+}
+
+#minorLabelBox
+{
+    -fx-background-color: #e5e5e5;
+    
+}
+
+
+
+.check-box
+{
+    -fx-font-size: 16;
+    -fx-padding: 10 20 10 20;
+    -fx-text-fill: #09192D;
+}
+
+.radio-button
+{
+    -fx-font-size: 16;
+    -fx-padding: 10 20 10 20;
+    -fx-text-fill: #09192D;
+}
+
+.slider
+{
+    -fx-font-size: 20;
+    -fx-padding: 25 20 10 20;
+    -fx-text-fill: #09192D;
+}
+
+#brand
+{
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+
+#model
+{
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+
+#price
+{
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+#carBox
+{
+    -fx-padding: 0;
+    
+    -fx-border-color: black;
+}
+
+#carGrid
+{
+   -fx-padding: 10;
+   -fx-background-color: #f5f5f7;
+}
+
+#stackBorder
+{
+    -fx-effect: dropshadow(one-pass-box, #464A4B, 10, .5, 2, 2);
+    -fx-background-color: #E2E4DF;
+}
+
+#scrollCars .viewport
+{
+    -fx-background-color: #f5f5f7;
+}
+
+
+
+.scroll-bar:vertical{
+    -fx-background-color: #f5f5f7;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: lightgrey;
+    -fx-border-color: #dbd8d0;
+    -fx-font-weight: bold;
+}
+
+.scroll-bar:vertical .track{
+    -fx-background-color: #f7f7f7;
+    -fx-border-color: transparent;
+    -fx-background-radius: 5em;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: lightgrey;
+    -fx-background-radius: 2em;
+}
+
+#noMatchLabel
+{
+    -fx-font-size: 36;
+    -fx-font-weight: bold;
+    -fx-padding: 250 0 0 200;
+}
+
+#reset
+{
+	-fx-font-size: 18;
+	-fx-font-weight: bold;
+	-fx-background-color: #dbdbdb;
+	-fx-text-fill: #15629E;
+	-fx-underline: true;
+        -fx-padding: 7 0 0 0;
+	
+}
+
+#labelBoxHeader
+{
+    -fx-background-color: #dbdbdb;
+}
+
+#criteria
+{
+    -fx-background-color: #f5f5f7;
+    -fx-border-color: #c7c7c7;
+    -fx-border-width: 10 10 10 10;
+}
+
+#resultsBox
+{
+    -fx-border-color: #c7c7c7;
+    -fx-border-width: 10 10 10 0;
+}
+
+#choices
+{
+    -fx-border-color: #e5e5e5;
+    -fx-border-width: 0 10 0 10;
+}
+
+#choicesLast
+{
+    -fx-border-color: #e5e5e5;
+    -fx-border-width: 0 10 10 10;
+}
+#detailsBox
+{
+    -fx-border-color: #c7c7c7;
+    -fx-border-width: 10 10 10 0;
+}
+
+#largeCarImage
+{
+    -fx-effect: dropshadow(one-pass-box, #464A4B, 10, .5, 2, 2);
+    
+}
+
+#detailsBrand
+{
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+}
+
+#detailsModel
+{
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+
+#detailsPrice
+{
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+}
+
+.button
+{
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+#detailsLabel
+{
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+
+#detailsLabel
+{
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+
+#detailsLabelBox
+{
+    -fx-background-color: #e5e5e5;
+    -fx-padding: 5 0 5 5;
+}
+
+#detailItem
+{
+    -fx-border-color: #e5e5e5;
+    -fx-border-width: 0 0 5 5;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-padding: 5 0 5 5;
+}
+
+#detailItemLast
+{
+    -fx-border-color: #e5e5e5;
+    -fx-border-width: 0 5 5 5;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-padding: 5 0 5 5;
+}
+
+#customerInformation
+{
+    -fx-border-color: #c7c7c7;
+    -fx-border-width: 10 10 10 10;
+}
+
+#customerLabelBox
+{
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: #09192D;
+    -fx-background-color: #dbdbdb;
+    
+}
+
+.text-field
+{
+    -fx-font-size: 30;
+    -fx-prompt-text-fill: black;
+}
+
+#combo
+{
+    -fx-font-size: 30;
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, white;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+	
+}
+
+#comboError .text
+{
+	-fx-fill: red;
+}
+
+#comboError
+{
+    -fx-font-size: 30;
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, white;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+
+}
+
+#comboError .list-cell
+{
+    -fx-fill: black;
+
+}
+
+#expDate
+{
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+
+#errorDate
+{
+    -fx-font-size: 26;
+    -fx-text-fill: red;
+    -fx-text-alignment:center;
+}
+
+#ccv
+{
+    
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+}
+
+#errorCCV
+{
+    -fx-font-size: 18;
+    -fx-prompt-text-fill: #990000;
+}
+
+#confirmation
+{
+    -fx-font-size: 45;
+    -fx-font-weight: bold;
+}
+
+#receiptDetailsLabel
+{
+    -fx-background-color: #e5e5e5;;
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: #09192D;
+    
+}
+
+#boldLabel
+{
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+
+#info
+{
+    -fx-font-size: 24;
+}
+
+#newCarLabel
+{
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+
+#newModelLabel
+{
+    -fx-font-size: 24;
+    -fx-font-style: italic;
+}
+
+#newPriceLabel
+{
+    -fx-font-size: 30;
+}
+
+#newPriceLabel2
+{
+    -fx-font-size: 34;
+}
+
