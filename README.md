@@ -12,6 +12,6 @@ A program for a car dealership that allows the user to filter car inventory and 
 ![Initial Display](Screenshot1.jpg)
 ![Mulitple Filtering](MultipleFilters.jpg)
 ![Car Detail](CarDetail.jpg)
-![Purchase Option](Purchase.jpg)
+![Purchase Option](PurchaseCar.jpg)
 ![Receipt](Receipt.jpg)
 
